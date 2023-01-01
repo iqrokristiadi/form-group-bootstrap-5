@@ -33,23 +33,23 @@ body {
 }
 
 .headline .protection {
-	top: 70px;
-	max-width: 250px;
-	left: 60px;
+	top: 10%;
+	max-width: 63%;
+	left: 5%;
 	transform: rotate(-5deg);
 	animation-name: tilt-n-move-shaking;
 }
 
 .headline .seo {
-	max-width: 100px;
-	right: 15%;
-	top: 150px;
+	max-width: 25%;
+	right: 10%;
+	top: 20%;
 	transform: rotate(25deg);
 	animation-name: tilt-shaking;
 }
 
 .headline .website {
-	max-width: 150px;
+	max-width: 35%;
 	top: 290px;
 	left: 15%;
 	transform: rotate(-3deg);
@@ -66,9 +66,9 @@ body {
 
 .headline .confetti {
 	position: absolute;
-	max-width: 400px;
-	top: 70px;
-	right: 10%;
+	max-width: 90%;
+	top: 10%;
+	right: 7%;
 	animation-name: tilt-n-move-shaking !important;
 
 }
@@ -79,15 +79,15 @@ body {
 	font-size: 25px;
 	text-align: center;
 	font-weight: 500;
-	padding: 0 90px;
+	padding: 0 50px;
 }
 
 .headline .desc {
 	color: #ddd;
-	font-size: 13px;
+	font-size: 12px;
 	text-align: center;
-	padding: 0 90px 0 90px;
-	margin-bottom: 100px;
+	padding: 0 50px;
+	margin-bottom: 80px;
 }
 
 /* Form Login */
@@ -103,18 +103,19 @@ body {
 
 .shield {
 	width: 70px;
-	left: 42%;
+	left: 40%;
 	top: 120px;
 
 }
 
 .form-login h2 {
-	margin: 180px auto 20px auto ;
+	margin: 150px auto 20px auto ;
+	font-size: 25px;
 }
 
 .form-login p {
 	color: #aaa;
-	font-size: 13px;
+	font-size: 12px;
 }
 
 button {
@@ -159,7 +160,7 @@ button {
 
 /* Media Queries */
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
 
 	.headline {
 		border-radius: 15px 15px 0 0px;
@@ -167,19 +168,22 @@ button {
 
 	.form-login {
 		
-		border-radius: 0 0 15px 15px;
+		border-radius: 0 0 15px 15;
 	}
 
 	.headline .protection {
-		width: 60%;
-		left: 50px;
+		max-width: 60%;
+		left: 10%;
+		top: 15%;
+		right: 10%;
 		
 	}
 
 	.headline .seo {
-		width: 20%;
+		max-width: 25%;
 		right: 5%;
-		top: 190px;
+		top: 25%;
+
 		
 	}
 
@@ -187,50 +191,55 @@ button {
 		width: 30%;
 		top: 45%;
 		left: 15%;
+		bottom: 0;
 		
 	}
 
 	.headline .research {
 		width: 27%;
-		top: 45%;
+		top: 42%;
 		left: 60%;
 	}
 
 	.headline .confetti {
 	position: absolute;
-	width: 80%;
+	width: 90%;
 	top: 10%;
-	right: 10%;
+	right: 5%;
 	}
 
 	.headline .slogan {
-	margin-top: 400px;
+	margin-top: 320px;
 	padding: 0 20px;
+	font-size: 20px;
 	}
 
 	.headline .desc {
 		padding: 0 20px;
 		margin-bottom: 60px;
+		font-size: 10px;
 	}
 	.shield {
-	width: 70px;
-	left: 42%;
+	width: 60px;
+	left: 40%;
 	top: 70px;
 
 	}
 
 	.form-login h2 {
 		margin: 100px auto 20px auto ;
+		font-size: 20px;
 	}
 
 	.form-login p {
 		color: #aaa;
-		font-size: 13px;
+		font-size: 10px;
 	}
 
 	button {
 		width: 100%;
 		background-color: #345eeb !important;
 
-	}	
+	}
 }
+
