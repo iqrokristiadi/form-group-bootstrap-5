@@ -199,6 +199,27 @@ button {
 
 	.headline .desc {
 		padding: 0 20px;
-		margin-bottom: 100px;
+		margin-bottom: 60px;
+	}
+	.shield {
+	width: 70px;
+	left: 42%;
+	top: 70px;
+
+	}
+
+	.form-login h2 {
+		margin: 100px auto 20px auto ;
+	}
+
+	.form-login p {
+		color: #aaa;
+		font-size: 13px;
+	}
+
+	button {
+		width: 100%;
+		background-color: #345eeb !important;
+		
 	}	
 }
