@@ -22,25 +22,29 @@
         <div class="row">
           
           <!-- Headlines -->
-          <div class="col-lg-6 headline">
-            
-            <img src="img/protection.png" alt="protection" class="protection">
-            <img src="img/seo.png" alt="seo" class="seo">
-            <img src="img/website.png" alt="website" class="website">
-            <img src="img/research.png" class="research"></img>
+          <div class="col-md-6 headline">
 
-            <p class="slogan">Easy To Navigate <br> And Earn Rewards</p>
+      
+            
+
+            <img src="img/protection.png" alt="protection" class="protection img-fluid">
+            <img src="img/seo.png" alt="seo" class="seo img-fluid">
+            <img src="img/website.png" alt="website" class="website img-fluid">
+            <img src="img/research.png" class="research img-fluid"></img>
+            <img src="img/fireworks.png" class="confetti img-fluid" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="ease-in-out">
+
+            <p class="slogan"></p>
             <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua.</p>
 
           </div>
           <!-- Form Login -->
-          <div class="col-lg-6 form-login">
+          <div class="col-md-6 form-login">
 
-            <img src="img/shield.png" alt="shield" class="shield">
+            <img src="img/shield.png" alt="shield" class="shield" data-aos="flip-left">
 
-            <h2 class="text-center">Hello Again!</h2>
-            <p class="text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            <h2 class="text-center hello"  data-aos="fade-up-left " data-aos-duration="1000">Hello Again!</h2>
+            <p class="text-center mb-5"  data-aos="fade-up-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua.</p>
 
             <!-- Alert -->
@@ -53,16 +57,16 @@
             <form name="login-test">
               <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="email">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="email" required>
               </div>
 
               <div class="mb-3">
                 <label for="password" class="form-label">Password</label>
-                <input type="password" class="form-control" id="password" placeholder="Password" name="password">
+                <input type="password" class="form-control" id="password" placeholder="Password" name="password" required>
               </div>
             
             <!-- Tombol Kirim  -->
-            <button type="submit" class="btn btn-primary mb-3 mt-5 btn-kirim">Login</button>
+            <button type="submit" class="btn btn-primary mb-3 mt-5 btn-kirim">Register</button>
             
             <!-- Tombol Loading -->
             <button class="btn btn-primary btn-loading d-none" type="button" disabled>
@@ -83,6 +87,12 @@
     
     <!-- Bootstap JS -->
     <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- GSAP -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    
+    <!-- GSAP Text Plugins -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/TextPlugin.min.js"></script>
 
     <!-- AOS JS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

@@ -27,12 +27,16 @@ body {
 .protection, .seo, .website, .research, .shield {
 	position: absolute;
 	top: 100px;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	z-index: 1;
 }
 
 .headline .protection {
 	width: 60%;
 	left: 60px;
 	transform: rotate(-5deg);
+	animation-name: tilt-n-move-shaking;
 }
 
 .headline .seo {
@@ -40,6 +44,7 @@ body {
 	right: 5%;
 	top: 190px;
 	transform: rotate(25deg);
+	animation-name: tilt-shaking;
 }
 
 .headline .website {
@@ -47,6 +52,7 @@ body {
 	top: 50%;
 	left: 15%;
 	transform: rotate(-3deg);
+	animation-name: horizontal-shaking;
 }
 
 .headline .research {
@@ -54,6 +60,16 @@ body {
 	top: 50%;
 	left: 60%;
 	transform: rotate(25deg);
+	animation-name: horizontal-shaking;
+}
+
+.headline .confetti {
+	position: absolute;
+	width: 80%;
+	top: 20%;
+	right: 10%;
+	animation-name: tilt-n-move-shaking !important;
+
 }
 
 .headline .slogan {
@@ -62,6 +78,7 @@ body {
 	font-size: 25px;
 	text-align: center;
 	font-weight: 500;
+	padding: 0 90px;
 }
 
 .headline .desc {
@@ -104,3 +121,84 @@ button {
 	background-color: #345eeb !important;
 }
 
+/* Animation */
+
+@keyframes tilt-shaking {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0eg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes tilt-n-move-shaking {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(5px, 5px) rotate(5deg); }
+  50% { transform: translate(0, 0) rotate(0eg); }
+  75% { transform: translate(-5px, 5px) rotate(-5deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+@keyframes horizontal-shaking {
+ 0% { transform: translateX(0) }
+ 25% { transform: translateX(5px) }
+ 50% { transform: translateX(-5px) }
+ 75% { transform: translateX(5px) }
+ 100% { transform: translateX(0) }
+}
+
+@keyframes skew-y-shakeing{
+ 0% { transform: skewY(-15deg); }
+ 5% { transform: skewY(15deg); }
+ 10% { transform: skewY(-15deg); }
+ 15% { transform: skewY(15deg); }
+ 20% { transform: skewY(0deg); }
+ 100% { transform: skewY(0deg); }
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+	.headline .protection {
+		width: 60%;
+		left: 50px;
+		
+	}
+
+	.headline .seo {
+		width: 20%;
+		right: 5%;
+		top: 190px;
+		
+	}
+
+	.headline .website {
+		width: 30%;
+		top: 45%;
+		left: 15%;
+		
+	}
+
+	.headline .research {
+		width: 27%;
+		top: 45%;
+		left: 60%;
+	}
+
+	.headline .confetti {
+	position: absolute;
+	width: 80%;
+	top: 10%;
+	right: 10%;
+	}
+
+	.headline .slogan {
+	margin-top: 400px;
+	padding: 0 20px;
+	}
+
+	.headline .desc {
+		padding: 0 20px;
+		margin-bottom: 100px;
+	}	
+}

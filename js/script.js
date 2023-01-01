@@ -35,3 +35,9 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbwWMZazRNFi1MsWymeYW-
 
       // AOS
       AOS.init();
+
+      // GSAP
+
+      gsap.to('.slogan', {duration: 1.5, text: 'Change The Quality Of Your Life'});
+      // gsap.from('.slogan', {duration:1, x: -100, opacity:0, delay: 0.5, ease: 'back'});
+      gsap.from('.desc', {duration:1, y: 100, opacity:0, delay: 0.5, ease: 'back'});
