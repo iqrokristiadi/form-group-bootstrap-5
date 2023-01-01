@@ -33,23 +33,24 @@ body {
 }
 
 .headline .protection {
-	width: 60%;
+	top: 70px;
+	max-width: 250px;
 	left: 60px;
 	transform: rotate(-5deg);
 	animation-name: tilt-n-move-shaking;
 }
 
 .headline .seo {
-	width: 20%;
-	right: 5%;
-	top: 190px;
+	max-width: 100px;
+	right: 15%;
+	top: 150px;
 	transform: rotate(25deg);
 	animation-name: tilt-shaking;
 }
 
 .headline .website {
-	width: 30%;
-	top: 50%;
+	max-width: 150px;
+	top: 290px;
 	left: 15%;
 	transform: rotate(-3deg);
 	animation-name: horizontal-shaking;
@@ -57,7 +58,7 @@ body {
 
 .headline .research {
 	width: 27%;
-	top: 50%;
+	top: 280px;
 	left: 60%;
 	transform: rotate(25deg);
 	animation-name: horizontal-shaking;
@@ -65,15 +66,15 @@ body {
 
 .headline .confetti {
 	position: absolute;
-	width: 80%;
-	top: 20%;
+	max-width: 400px;
+	top: 70px;
 	right: 10%;
 	animation-name: tilt-n-move-shaking !important;
 
 }
 
 .headline .slogan {
-	margin-top: 600px;
+	margin-top: 450px;
 	color: white;
 	font-size: 25px;
 	text-align: center;
@@ -220,6 +221,6 @@ button {
 	button {
 		width: 100%;
 		background-color: #345eeb !important;
-		
+
 	}	
 }
