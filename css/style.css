@@ -160,6 +160,16 @@ button {
 /* Media Queries */
 
 @media (max-width: 768px) {
+
+	.headline {
+		border-radius: 15px 15px 0 0px;
+	}
+
+	.form-login {
+		
+		border-radius: 0 0 15px 15px;
+	}
+
 	.headline .protection {
 		width: 60%;
 		left: 50px;
