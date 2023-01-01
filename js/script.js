@@ -31,3 +31,7 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbwWMZazRNFi1MsWymeYW-
           })
           .catch(error => console.error('Error!', error.message))
       })
+
+
+      // AOS
+      AOS.init();
