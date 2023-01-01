@@ -123,6 +123,10 @@ button {
 	background-color: #345eeb !important;
 }
 
+.my-alert {
+	font-size: 12px !important;
+}
+
 /* Animation */
 
 @keyframes tilt-shaking {
