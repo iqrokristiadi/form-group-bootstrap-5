@@ -178,22 +178,22 @@ button {
 	.headline .protection {
 		max-width: 60%;
 		left: 10%;
-		top: 15%;
+		top: 18%;
 		right: 10%;
 		
 	}
 
 	.headline .seo {
-		max-width: 25%;
-		right: 5%;
-		top: 25%;
+		max-width: 23%;
+		right: 10%;
+		top: 30%;
 
 		
 	}
 
 	.headline .website {
 		width: 30%;
-		top: 45%;
+		top: 50%;
 		left: 15%;
 		bottom: 0;
 		
@@ -201,7 +201,7 @@ button {
 
 	.headline .research {
 		width: 27%;
-		top: 42%;
+		top: 49%;
 		left: 60%;
 	}
 
@@ -213,8 +213,8 @@ button {
 	}
 
 	.headline .slogan {
-	margin-top: 320px;
-	padding: 0 20px;
+	margin-top: 450px;
+	padding: 0 80px;
 	font-size: 20px;
 	}
 
@@ -225,7 +225,7 @@ button {
 	}
 	.shield {
 	width: 60px;
-	left: 40%;
+	left: 43%;
 	top: 70px;
 
 	}
