@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form Group</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    
+    <section class="login" id="login">
+      
+      <div class="container">
+        <div class="row">
+          
+          <!-- Headlines -->
+          <div class="col-lg-6 headline">
+            
+            <img src="img/protection.png" alt="protection" class="protection">
+            <img src="img/seo.png" alt="seo" class="seo">
+            <img src="img/website.png" alt="website" class="website">
+            <img src="img/research.png" class="research"></img>
+
+            <p class="slogan">Easy To Navigate <br> And Earn Rewards</p>
+            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+
+          </div>
+          <!-- Form Login -->
+          <div class="col-lg-6 form-login">
+
+            <img src="img/shield.png" alt="shield" class="shield">
+
+            <h2 class="text-center">Hello Again!</h2>
+            <p class="text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+
+            <!-- Alert -->
+            <div class="alert alert-primary alert-dismissible fade show d-none my-alert" role="alert">
+              <strong>Terima Kasih</strong> Sudah melakukan register!
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+
+            <!-- Login -->
+            <form name="login-test">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="email">
+              </div>
+
+              <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Password" name="password">
+              </div>
+            
+            <!-- Tombol Kirim  -->
+            <button type="submit" class="btn btn-primary mb-3 mt-5 btn-kirim">Login</button>
+            
+            <!-- Tombol Loading -->
+            <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+              <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+              Loading...
+          </button>
+
+            </form>
+            <!-- Akhir Login -->
+
+          </div>
+          <!-- Akhir Form Login -->
+        
+        </div>
+      </div>
+
+    </section>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
